@@ -94,6 +94,10 @@ font-weight: 800;
 }
 
 /* main section style */
+main{
+    max-width: 1140;
+    margin: 0px auto;
+}
 
 
 /* about section styles */
@@ -118,5 +122,11 @@ text-align: center;
 font-size: 18px;
 
 }
-
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
 
